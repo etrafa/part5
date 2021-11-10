@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+#navbar nav {
+  background: #191919;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.hamburger__icon {
+  margin-left: 25px;
+}
+
+.shopping__cart {
+  margin-right: 25px;
+}
+
+.brand__name h1 {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: #191919;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header h1 {
+  padding-top: 1.5rem;
+}
+.new__product__text {
+  color: #d87d4a !important;
+  font-weight: bolder;
+  letter-spacing: 0.3cm;
+}
+
+.headphone__1,
+.headphone__2,
+.headphone__3 {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.headphone__1 p,
+.headphone__2 p,
+.headphone__3 p {
+  padding: 20px 40px 0px 40px;
+  color: #808080;
+  line-height: 0.8cm;
+}
+
+.headphone__1 h3,
+.headphone__2 h3,
+.headphone__3 h3 {
+  padding: 30px;
+  font-size: 36px;
+}
+
+.headphone__1 img,
+.headphone__2 img,
+.headphone__3 img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.see__product__button {
+  width: 160px;
+  height: 40px;
+  background: #d87d4a;
+  border: none;
+  color: #ffffff;
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+
+.best__audio__gear {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.best__audio__gear img {
+  max-width: 85%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.best__audio__gear h2 {
+  margin-top: 2rem;
+  letter-spacing: 0.1cm;
+}
+
+.best__audio__gear p {
+  padding: 20px;
+  color: #7d7d7d;
+}
+
+#footer {
+  width: 100%;
+  height: 600px;
+  background: #191919;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#footer header {
+  color: #ffffff;
+  margin: 2rem auto;
+  font-size: 18px;
+}
+
+.footer__lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__lists a {
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.footer__text {
+  margin-top: 20px;
+  color: #7d7d7d;
+  padding: 20px;
+}
+
+.copyright {
+  margin-top: 25px;
+  color: #7d7d7d;
+}
+
+.social__medias {
+  margin-top: 25px;
+}
+
+.social__medias img {
+  padding: 10px;
+}
